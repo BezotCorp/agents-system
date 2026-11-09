@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+fasteval = "0.2.4"
 bincode-next = { version = "3.1.1", features = ["serde"] }
 ron = "0.12"
 serde = { version = "1", features = ["derive"] }
